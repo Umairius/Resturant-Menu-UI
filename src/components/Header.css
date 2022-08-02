@@ -1,0 +1,45 @@
+:root{
+    --primarycolor: #780116;
+    --secondarycolor: #f7b538;
+    --ternarycolor: #db7c26;
+  }
+h1{
+    float: left;;
+}
+.carouselButton{
+    font-family: inherit;
+    font-size: 1.1em;
+    height: 100%;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 5px;
+
+   
+}
+
+.carouselButton:hover{
+    background-color:var(--secondarycolor);
+}
+
+ul{
+    height: 5em;
+}
+
+
+li{
+    height:100%;
+    display: inline-block;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    
+    width:7em;
+   
+
+}       
+

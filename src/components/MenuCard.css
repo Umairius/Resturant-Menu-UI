@@ -1,0 +1,61 @@
+
+
+
+:root{
+  --primarycolor: #780116;
+  --secondarycolor: #f7b538;
+  --ternarycolor: #db7c26;
+}
+  .Menubutton{
+    background-color: var(--secondarycolor); /* Green */
+    border: none;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    min-height: 15px;
+    min-width: 20px;
+    width: 30px;
+    margin-right:10px;
+    margin-top: 10px;
+  }
+
+
+
+.MenuCard{
+    width: 80%;
+    height:120px;
+    /* border: 5px solid green; */
+    background-color: var(--primarycolor);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.item{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 80%;
+    height: 30%;
+    line-height: 80%;
+    color: wheat;
+    margin:5px;
+    padding-bottom: 12px;
+
+
+}
+  p{
+    flex-grow: 0.5;
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size: 20px;
+ 
+  }
+
+
